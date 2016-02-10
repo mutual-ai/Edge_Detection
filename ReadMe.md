@@ -1,4 +1,3 @@
----------
 1. Canny
 ---------
 Error rate: Desired edge detection filter should find all the edges, there should not be any missing edges,
@@ -10,7 +9,6 @@ The program implements Canny edge detection for the given input image, we will f
 
 Berkeley Segmentation Dataset Training images have been used for this program.
 
--------------
 2. Evaluation
 -------------
 The program reports quantitative evaluation of the edge detection results implemented in the with the above program with the following functions:
@@ -27,10 +25,10 @@ False Discovery Rate FDR as FP=(FP + TP)
 Accuracy as (TP + TN)=(TP + FN + TN + FP)
 F-score as 2TP=(2TP + FP + FN)
 Matthew’s Correlation Coefficient as TP*TN-FP*FN/sqrt[((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN))]
------------------------------------------------------------------------------------------
+
 We then add Gaussian and Salt-Pepper noise to the input image and repeat the evaluation step.
 
----------
+
 3.ENTROPY
 ---------
 The program computes the summation of entropy A and entropy B, then total entropy=H(A)+
